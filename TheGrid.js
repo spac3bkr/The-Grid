@@ -1,11 +1,12 @@
 
-//INPUT SETUP
+//INPUT SETUP/////////////////
 var frameRate = 60.0;
 var rows = 40;
 var colums = 21;
 var tileSize = 10; //SQUARE
 var duration = 30;
 var margins = 100;
+///////////////////////////////
 
 //DEFINE COMP SIZE
 var compHeight = tileSize * rows + margins;
