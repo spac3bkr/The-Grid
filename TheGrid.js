@@ -11,7 +11,6 @@ var margins = 100;
 var compHeight = tileSize * rows + margins;
 var compWidth = tileSize * colums + margins;
 
-
 //CREATE MAIN COMP
 var grid = app.project.items.addComp("Grid", compWidth, compHeight, 1, duration, frameRate);
 
