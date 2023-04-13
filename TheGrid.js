@@ -24,9 +24,9 @@ var positionX = (margins / 2) + (tileSize / 2); // +  (tileSize / 2);
 var positionY = (margins / 2) + (tileSize / 2); // + (tileSize / 2);
 var i = 1;
 
-for (v = 1 ; v <= tilesAmountHeight ; v++){
+for (v = 1 ; v <= rows ; v++){
 
-	while(i <= tilesAmountWidth){
+	while(i <= colums){
 		
 		grid.layers.add(tile).position.setValue([positionX, positionY, 0.0]);
 		positionX += tileSize;
