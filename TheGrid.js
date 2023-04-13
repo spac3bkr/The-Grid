@@ -36,10 +36,7 @@ for (v = 1 ; v <= tilesAmountHeight ; v++){
 	positionY += tileSize;
 	var positionX = (margins / 2) + (tileSize / 2);
 	var i=1;
-	//positionX = tileSize / 2;
-	//i = 1;
 	
-
 }
 
 
