@@ -1,15 +1,16 @@
 
 //INPUT SETUP
 var frameRate = 60.0;
-var tilesAmountHeight = 40;
-var tilesAmountWidth= 21;
+var rows = 40;
+var colums = 21;
 var tileSize = 10; //SQUARE
 var duration = 30;
 var margins = 100;
 
 //DEFINE COMP SIZE
-var compWidth = tileSize * tilesAmountWidth + margins;
-var compHeight = tileSize * tilesAmountHeight + margins;
+var compHeight = tileSize * rows + margins;
+var compWidth = tileSize * colums + margins;
+
 
 //CREATE MAIN COMP
 var grid = app.project.items.addComp("Grid", compWidth, compHeight, 1, duration, frameRate);
@@ -43,8 +44,6 @@ for (v = 1 ; v <= tilesAmountHeight ; v++){
 }
 
 
-//grid.width = compWidth + 500;
-//grid.height = compHeight + 500;
 
 
 
